@@ -69,3 +69,12 @@ python main.py \
     --output_dir ./checkpoints \
     --eval
 ```
+
+## 📧 Contact
+
+For questions, issues, or collaboration inquiries, please contact:
+
+- **Email**: [emilkim01@pusan.ac.kr](mailto:emilkim01@pusan.ac.kr)
+- **Author**: Emil Kim
+
+---
