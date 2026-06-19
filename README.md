@@ -78,6 +78,12 @@ python main.py \
     --eval
 ```
 
+## TODO
+
+- [ ] Release code
+- [ ] Upload Colab notebook for demonstration
+- [ ] Release checkpoints
+
 ## 📧 Contact
 
 For questions, issues, or collaboration inquiries, please contact:
