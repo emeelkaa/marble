@@ -40,3 +40,11 @@ marble/
 ```
 > **📌 Note:** For Mamba installation, please refer to the official repository:
 > [https://github.com/state-spaces/mamba](https://github.com/state-spaces/mamba)
+
+## 🚀 Quick Start
+
+1. **Download the datasets**
+   - https://huggingface.co/ssssssup/NeuroBOLT(https://physionet.org/content/chbmit/1.0.0/)
+  
+2. Please refer to the Neurobolt authors for preprocessing. Run it 
+https://github.com/soupeeli/NeuroBOLT
