@@ -80,7 +80,7 @@ python main.py \
 
 ## TODO
 
-- [ ] Release code
+- [x] Release code
 - [ ] Upload Colab notebook for demonstration
 - [ ] Release checkpoints
 
