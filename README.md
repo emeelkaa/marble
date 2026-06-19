@@ -1,4 +1,5 @@
 # 🧠 MARBLE [MICCAI 2026]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Official PyTorch implementation of our MICCAI 2026 paper: **MARBLE**: Lightweight EEG-to-fMRI Translation via Mamba-Attention and ROI-Conditioned Decoding.
 The study addresses the challenging task of EEG-to-fMRI synthesis by introducing a novel Mamba-Attention architecture and an ROI-conditioned cross-attention mechanism for efficient and interpretable multimodal brain signal translation. 
@@ -34,12 +35,19 @@ marble/
    source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-3. **Install dependencies**
+3. **Install PyTorch** (CUDA 12.1)
 ```bash
-   pip install -r requirements.txt
+pip install torch==2.5.1+cu121 --index-url https://download.pytorch.org/whl/cu121
 ```
-> **📌 Note:** For Mamba installation, please refer to the official repository:
-> [https://github.com/state-spaces/mamba](https://github.com/state-spaces/mamba)
+
+4. **Install Mamba**
+
+Follow the official instructions at [github.com/state-spaces/mamba](https://github.com/state-spaces/mamba). Both `mamba-ssm` and `causal-conv1d` must be built for your CUDA version.
+
+5. **Install remaining dependencies**
+```bash
+pip install -r requirements.txt
+```
 
 ## 🚀 Quick Start
 
