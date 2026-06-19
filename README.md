@@ -48,3 +48,24 @@ marble/
   
 2. Please refer to the Neurobolt authors for preprocessing. Run it 
 https://github.com/soupeeli/NeuroBOLT
+
+3. **Train the model**:
+```bash
+python main.py \
+    --prepro_datapath /your/path/to/vu.pkl \
+    --batch_size 64 \
+    --epochs 30 \
+    --emb_size 128 \
+    --depth 2 \
+    --train_test_mode full_test \
+    --output_dir ./checkpoints
+```
+
+4. **Evaluation only**:
+```bash
+python main.py \
+    --prepro_datapath /your/path/to/vu.pkl \
+    --train_test_mode full_test \
+    --output_dir ./checkpoints \
+    --eval
+```
