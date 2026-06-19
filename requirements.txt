@@ -1,7 +1,5 @@
 # Environment: Python 3.10.12, CUDA 12.1, NVIDIA H100
-# Install PyTorch first:
-# pip install torch==2.4.1+cu121 torchvision==0.19.1+cu121 --index-url https://download.pytorch.org/whl/cu121
- 
+
 # Core
 torch==2.4.1+cu121
 numpy==1.26.4
