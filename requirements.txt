@@ -1,0 +1,20 @@
+# Environment: Python 3.10.12, CUDA 12.1, NVIDIA H100
+# Install PyTorch first:
+# pip install torch==2.4.1+cu121 torchvision==0.19.1+cu121 --index-url https://download.pytorch.org/whl/cu121
+ 
+# Core
+torch==2.4.1+cu121
+numpy==1.26.4
+scikit-learn==1.7.2
+ 
+# Model
+timm==1.0.9
+einops==0.8.1
+# mamba-ssm: install from source (editable install detected)
+# pip install git+https://github.com/state-spaces/mamba.git
+# causal-conv1d: mamba dependency, also from source
+# pip install git+https://github.com/Dao-AILab/causal-conv1d.git
+linear-attention-transformer==0.19.1
+ 
+# Optional: DeepSpeed (uncomment if needed)
+# deepspeed
