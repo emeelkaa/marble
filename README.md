@@ -1,5 +1,5 @@
 # 🧠 MARBLE [MICCAI 2026]
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bv5_Af-JH6sEenA06Z5gBP4HajBZyj6N?usp=sharing)
 
 Official PyTorch implementation of our MICCAI 2026 paper: **MARBLE**: Lightweight EEG-to-fMRI Translation via Mamba-Attention and ROI-Conditioned Decoding.
 The study addresses the challenging task of EEG-to-fMRI synthesis by introducing a novel Mamba-Attention architecture and an ROI-conditioned cross-attention mechanism for efficient and interpretable multimodal brain signal translation. 
