@@ -6,7 +6,7 @@ The study addresses the challenging task of EEG-to-fMRI synthesis by introducing
 The proposed framework achieves strong reconstruction performance while substantially improving computational efficiency, reducing the number of model parameters by 3.2× and peak memory consumption by 2.3× compared with existing approaches.
 
 ## 📘 Overview
-![Framework Overview](pipeline.png)
+![Framework Overview](assets/pipeline.png)
 ---
 
 ## 📂 Repository Structure
